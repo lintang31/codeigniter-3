@@ -33,7 +33,9 @@
     </style> 
 </head> 
 <body> 
+     
     <div class="min-vh-100 d-flex align-items-center"> 
+        
         <div class="container"> 
             <div class="row justify-content-center"> 
                 <div class="col-md-4"> 
@@ -41,7 +43,7 @@
                         <div class="card-body"> 
                             <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/01/25/3553512090.jpg" alt="Logo" class="mb-4 logo"> 
                             <h2 class="card-title text-center">Login</h2> 
-                            <form method="post"> 
+                            <form  action= "<?php echo base_url(); ?>Auth/aksi_login" method="post" class="space-y-12"> 
                                 <div class="mb-3"> 
                                     <input type="text" class="form-control" name="username" placeholder="Username" required> 
                                 </div> 
